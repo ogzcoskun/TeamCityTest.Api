@@ -16,7 +16,7 @@ namespace TeamCityTest.Api.Controllers
         [HttpGet]
         public async Task<IActionResult> Ping()
         {
-            return Ok("Api working on Docker!");
+            return Ok("Test 2");
         }
 
     }
